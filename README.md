@@ -27,39 +27,42 @@ cd esp-open-sdk; unzip ESP8266_RTOS_SDK-v1.3.0.10.zip
 ```
 
 ## Get SmingRTOS repository:
-	```shell
+```shell
 	https://github.com/SmingHub/SmingRTOS
-	```
+
+```
 
 ## Set env variables: 
-	```shell
+```shell
 	export ESP_HOME=<yout path>/esp-open-sdk
 	export SMING_HOME=<your path>/SmingRTOS/sming
-	```
+
+```
 
 ## Set SmingRTOS SDK_BASE variable:
-	```shell
+```shell
 	export SDK_BASE=$ESP_HOME/ESP8266_RTOS_SDK-v1.3.0
-	```
+
+```
 	OR
-	```shell
+```shell
 	vim $SMING_HOME/ Makefile-linux.mk
-	```
+```
 ## Build sming:
-	```shell
+```shell
 	cd  $SMING_HOME
 	make
 	cd spiffy
 	make
-	```
+```
 
 ## Verify:
-	```shell
+```shell
 	cd $SMING_HOME/../samples/Basic_Blink/
 	make 
 	make flashinit
 	make flash
-	```
+```
 
 ## Eclipse integration 
 	https://github.com/SmingHub/Sming/wiki/Windows---Manual-Installation#eclipse-ide-variables
