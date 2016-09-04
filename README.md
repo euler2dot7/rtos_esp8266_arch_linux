@@ -1,23 +1,30 @@
 # Install SmingRTOS for ESP8266 in Arch Linux 
 
-### this repo based on  https://github.com/SmingHub/Sming/wiki/Linux-Quickstart 
+##### this repo based on  https://github.com/SmingHub/Sming/wiki/Linux-Quickstart 
 
 ## Install required software: 
 You can see requered packages here  https://github.com/SmingHub/Sming/wiki/Linux-Quickstart
 
 ## Clone esp_open_sdk 
-	git clone --recursive https://github.com/pfalcon/esp-open-sdk.git
+```shell
+git clone --recursive https://github.com/pfalcon/esp-open-sdk.git
+
+```
 
 ## Add files: 
 	Clone this repo and copy filese to esp-open-sdk dir
-	cp esp-open-sdk_additional_files/*  esp-open-sdk/
-	cd esp-open-sdk; unzip ESP8266_RTOS_SDK-v1.3.0.10.zip
+```shell
+cp esp-open-sdk_additional_files/*  esp-open-sdk/
+cd esp-open-sdk; unzip ESP8266_RTOS_SDK-v1.3.0.10.zip
+
+```
 
 ## Build esp_open_sdk 
-	```shell
+```shell
 	cd esp-open-sdk
 	make STANDALONE=y
-	```
+
+```
 
 ## Get SmingRTOS repository:
 	```shell
