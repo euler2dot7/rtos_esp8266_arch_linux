@@ -68,9 +68,9 @@ cd esp-open-sdk; unzip ESP8266_RTOS_SDK-v1.3.0.10.zip
 	https://github.com/SmingHub/Sming/wiki/Windows---Manual-Installation#eclipse-ide-variables
 
 ## Useful links
-* *https://github.com/espressif/ESP8266_RTOS_SDK/
+* https://github.com/espressif/ESP8266_RTOS_SDK/
 * 
-* *https://github.com/SmingHub/SmingRTOS
+* https://github.com/SmingHub/SmingRTOS
 * 
 * https://github.com/SmingHub/Sming/wiki/Linux-Quickstart 
 * 
