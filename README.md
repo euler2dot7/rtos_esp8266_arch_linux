@@ -6,16 +6,12 @@
 You can see requered packages here  https://github.com/SmingHub/Sming/wiki/Linux-Quickstart
 
 ## Clone esp_open_sdk 
-	```shell
 	git clone --recursive https://github.com/pfalcon/esp-open-sdk.git
-	```
 
 ## Add files: 
 	Clone this repo and copy filese to esp-open-sdk dir
-	```shell
 	cp esp-open-sdk_additional_files/*  esp-open-sdk/
 	cd esp-open-sdk; unzip ESP8266_RTOS_SDK-v1.3.0.10.zip
-	```
 
 ## Build esp_open_sdk 
 	```shell
