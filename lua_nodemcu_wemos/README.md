@@ -19,3 +19,6 @@ https://github.com/prikril/ldt-nodemcu
 ### IDE for lua firmware
 http://esp8266.ru/esplorer/
 
+
+### Load lua scripts without ide
+https://github.com/4refr0nt/luatool
